@@ -17,7 +17,8 @@ Hit `prefix` + <kbd>I</kbd> to fetch the plugin, then reload your tmux configura
 
 Add format strings to `status-left` or `status-right`, where you see fit.
 
-Additionally, you can update the plugin using `prefix` + <kbd>U</kbd> and, when prompted, write `tmux-uptime` and press <kbd>⏎ Enter</kbd>.
+Additionally, you can update the plugin using `prefix` + <kbd>U</kbd>.
+You'll see `plugin update:` on the tmmux bar prompt. Then write `tmux-uptime` or `all` and press <kbd>⏎ Enter</kbd>.
 
 ## Manual install
 
