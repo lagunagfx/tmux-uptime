@@ -21,6 +21,7 @@ update_tmux_option() {
 	local option="$1"
 	local value="S( get_tmux_option $option )"
 	local new_value="${value//$tmux_cmd/$bash_cmd}"
+	set_tmux_option "$option" "$new_value"
 }
 
 main() {
