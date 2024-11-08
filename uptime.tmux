@@ -19,9 +19,10 @@ set_tmux_option() {
 
 update_tmux_option() {
 	local option="$1"
-	local value="S( get_tmux_option $option )"
+	local value="$( get_tmux_option $option )"
+	bash_cmd="#($bash_cmd)"
 	local new_value="${value//$tmux_cmd/$bash_cmd}"
-	set_tmux_option "$option" "$new_value"
+	echo set_tmux_option "$option" "$new_value"
 }
 
 main() {
