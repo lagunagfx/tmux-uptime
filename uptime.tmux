@@ -2,7 +2,7 @@
 
 CURRENT_DIR="$( cd $( dirname $0 ) && pwd )"
 
-tmux_cmd="\#lgfx_uptime"
+tmux_cmd="\#{lgfx_uptime}"
 
 bash_cmd=$CURRENT_DIR/script/uptime.sh
 
