@@ -3,7 +3,7 @@ A simple tmux plugin that shows very shortly how long the system has been runnin
 
 ## Format strings (add these to your tmux statusbar)
 
-`tmux-uptime` takes its input from the `uptime --pretty` command 
+`tmux-uptime` takes its input from the general `uptime` command. It used to be based on the `--pretty` option, though that one seems not to be present at every Unix system (_i.e. macOS_). 
 
 * `#{lgfx_update}`: prints the time the machine has been running.
 
